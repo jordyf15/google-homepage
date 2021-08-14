@@ -1,0 +1,114 @@
+body{
+    /* background-color: pink; */
+    width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: arial,sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+main{
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;  
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#src-bar{
+    width: 50%;
+    max-width: 600px;
+    padding: 10px 50px;
+    font-size: 16px; 
+    border: 1px solid #cccaca;
+    border-radius: 20px;
+}
+form {
+    /* background-color: pink; */
+    width: 100%;
+}
+form div {
+    position: relative;
+    display: inline;
+}
+.input-icon {
+    position: absolute;
+    margin-top: 12px;
+}
+
+.fa-search{
+    left: 20px;
+    color: #cccaca;
+}
+.fa-microphone{
+    right: 20px;
+    color: rgb(66, 133, 244);
+}
+.main-anchor{
+    background-color: #efefef;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    color: #4a4848;
+}
+#register-covid, .language{
+    color: #030382;
+}
+.language{
+    margin-left: 15px;
+}
+#covid-info{
+    font-size: 14px;
+}
+#language-options{
+    font-size: 14px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header div{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.header-anchor{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#header-left a{
+    margin-left: 20px;
+}
+#header-right a{
+    margin-right: 20px;
+}
+#header-right button{
+    margin-right: 25px;
+}
+#signin-btn{
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#app-btn{
+    background:none;
+    border:none;
+}
+.fa-th{
+    font-size: 18px;
+}
