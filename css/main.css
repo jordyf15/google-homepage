@@ -112,3 +112,22 @@ header div{
 .fa-th{
     font-size: 18px;
 }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0;
+    background-color: #f2f2f2;
+}
+footer div a {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+}
+#footer-left a{
+    margin-left: 25px;   
+}
+#footer-right a{
+    margin-right: 25px;
+}
